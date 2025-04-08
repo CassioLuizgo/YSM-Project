@@ -1,8 +1,7 @@
 //*Carrossel index/seção hero*//
-
 const images = document.querySelectorAll(".hero img");
-const textSpans = document.querySelectorAll(".text_banner a");
-const textBanner = document.querySelector(".text_banner");
+const textSpans = document.querySelectorAll(".text-banner a");
+const textBanner = document.querySelector(".text-banner");
 
 // Garante que a primeira imagem esteja visível no carregamento da página
 images[0].classList.add("active");
