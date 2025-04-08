@@ -1,0 +1,71 @@
+/* Importações */
+@import url(/assets/css/global/reset.css);
+@import url(/assets/css/global/fonts.css);
+@import url(/assets/css/global/elements.css);
+@import url(/assets/css/global/variables.css);
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 7.5rem;
+}
+
+header a {
+    color: black;
+}
+
+header .logo a {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: ;
+    text-decoration: none;
+}
+
+header .nav-itens {
+    display: flex;
+    justify-content: space-between;
+    grid-area: 18.75rem;
+}
+
+header .list_navbar-itens {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.8rem;
+    font-family: ;
+}
+
+header .list_navbar-icons {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.3rem;
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    width: 100%;
+    padding: 1rem 7.5rem;
+    justify-content: space-between;
+    border-top: 0.5px solid #f0eded;
+    font-size: 18px;
+}
+
+footer a {
+    color: black;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 15px;
+}
+
+.span-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

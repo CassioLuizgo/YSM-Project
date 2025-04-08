@@ -1,0 +1,25 @@
+/* botão index */
+.button-index{
+    display: flex;
+    background-color: #db778d;
+    width: 150px;
+    height: 75px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.text_btn-index a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.button-index:hover {
+    background-color: #f1c3cd;
+    color: #b6092f;
+    transition: 1s ease-in-out;
+}
