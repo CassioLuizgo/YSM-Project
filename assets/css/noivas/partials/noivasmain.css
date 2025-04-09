@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #636262;
+    margin-bottom: 15px;
+}
