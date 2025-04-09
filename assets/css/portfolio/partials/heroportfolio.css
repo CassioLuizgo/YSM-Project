@@ -1,0 +1,51 @@
+@import url(/assets/css/global/global.css);
+
+.hero {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 80px;
+    margin-bottom: 120px;
+}
+
+.contend {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-contend {
+    width: 600px;
+    height: 450px;
+    overflow-y: hidden;
+    border-radius: 6px;
+}
+
+.img-contend img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container div img:hover {
+    transition: filter 0.3s ease-in-out;
+    filter: brightness(0.5);
+}
+
+.container .contend span {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 25px;
+    color: #636262;
+    font-weight: bold;
+    font-family: "Bodoni Moda", serif;
+    text-transform: uppercase;
+}
